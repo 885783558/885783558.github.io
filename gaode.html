@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>高德地图</title>
-    <!-- <base href="http://jinjing365.com/" /> -->
+    <base href="http://jinjing365.com/" />
     <script src="https://webapi.amap.com/maps?v=1.4.14&key=60bf17934cf7f76dc7408c7e1b6554fc"></script>
 </head>
 <style>
@@ -5237,7 +5237,7 @@
         var marker = new AMap.Marker({
             position: new AMap.LngLat(capitals[i].center[0], capitals[i].center[1]),
             offset: new AMap.Pixel(-10, -25),
-            icon: './' + capitals[i].aa + '.png', // 添加 Icon 图标 URL
+            icon: 'https://885783558.github.io/' + capitals[i].aa + '.png', // 添加 Icon 图标 URL
             title: capitals[i].name,
         });
         facilities.push(marker);
